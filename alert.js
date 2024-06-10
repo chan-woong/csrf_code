@@ -1,7 +1,1 @@
-<script>
-  window.onload = function () {
-	  alert("hi")
-  }
-  alert(test)
-  
-</script>
+alert("alert_test")
