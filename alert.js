@@ -1,10 +1,3 @@
-alert("test")
-alert("alert_test")
-function test(){
-    alert("alert_test222222");
-}
-test();
-
 (function(exports){
-    alert("alert_tasdasdasd");
+    alert("XSS 외부 스크립트를 통한 alert");
 })(this);
